@@ -13,12 +13,11 @@ class PageController extends Controller
 
         return view('guests.welcome', compact('movies'));
     }
-    public function about() {
+    public function movie($id) {
 
-        return view('guests.about');
-    }
-    public function contacts() {
 
-        return view('guests.contacts');
+        $movie = Movie::findOrFail($id);
+
+        return view('guests.movie', compact('movie'));
     }
 }

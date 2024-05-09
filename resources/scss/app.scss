@@ -1,1 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
+@import '_variables.scss';
+
+
+header{
+  #ms_brand{
+    margin-left: 0.5rem;
+    font-weight: bold;
+    color: $laravel-red;
+  }
+}
