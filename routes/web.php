@@ -1,6 +1,11 @@
 <?php
 
+namespace App\Http\Controllers\Guests;
+
+/* use App\Http\Controllers\Controller; */
+use App\Http\Controllers\Guests\PageController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PageController::class, 'index']);
+
+Route::get('/about', [PageController::class, 'about']);
+
+Route::get('/contacts', [PageController::class, 'contacts']);
