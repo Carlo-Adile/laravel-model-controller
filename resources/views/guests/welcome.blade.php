@@ -25,9 +25,10 @@
                     @forelse($movies as $movie)
 
                     <div class="col-4">
-                        <div class="card" style="height: 6rem;">
+                        <div class="card">
+                            <img src="{{ Vite::asset('public/img/movie-placeholder.png')}}" class="card-img p-2" alt="">
                             <div class="card-body">
-                                <h3 class="card-title">{{ $movie->title}}</h3>
+                                <h5 class="card-title">{{ $movie->title}}</h5>
                             </div>
                         </div>
                     </div>
