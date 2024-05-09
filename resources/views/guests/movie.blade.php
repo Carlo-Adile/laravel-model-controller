@@ -8,7 +8,7 @@
                 In this page you can check out the single movie selected from the previous page. <br>
                 Unfortunately, there aren't many info to show off.
             </p>
-            <a href="/" class="btn btn-primary">GO BACK HOME</a>
+            <a href="/" class="btn ms_btn">GO BACK HOME</a>
         </div>
     </div>
 
