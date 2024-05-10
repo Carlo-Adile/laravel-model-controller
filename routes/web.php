@@ -22,4 +22,5 @@ Route::get('/', [PageController::class, 'index']);
 
 Route::get('/guests/movie/{id}', [PageController::class, 'movie'])->name('guests.movie');
 
+Route::get('/guests/hat', [PageController::class, 'hat'])->name('guests.hat');
 

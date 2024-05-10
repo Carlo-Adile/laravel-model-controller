@@ -12,7 +12,7 @@
         </div>
     </div>
 
-    <div class="container py-3">
+    <div class="container py-4 mb-4">
         <div class="row">
             <div class="col-8 mx-auto">
                 <div class="card">

@@ -19,6 +19,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a href="/" class="nav-link">home</a></li>
+            <li><a href="/guests/hat" class="nav-link">hats</a></li>
             {{-- <li><a href="/about" class="nav-link">about</a></li>
             <li><a href="/contacts" class="nav-link">contacts</a></li> --}}
           </ul>

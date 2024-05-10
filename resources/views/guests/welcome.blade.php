@@ -18,7 +18,7 @@
                 </div>
 
                 {{-- card cycle --}}
-                <div class="container-xl py-3">
+                <div class="container-xl py-4 mb-4">
                     <div class="row g-3">
                         <div class="col-12 px-4">
                             <h3>Current Movies Selection</h3>
@@ -35,10 +35,6 @@
                                     </div>
                                 </a>
                             </div>
-
-                            
-
-
 
                         @empty
                             <p>Nothing to see here...</p>
